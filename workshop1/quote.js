@@ -4,8 +4,8 @@
  * L&T quote generator
  */
 
-var things = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var programmers = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
+var things = ["Red", "Blue", "Yellow", "Orange", "Green", "Pink"];
+var programmers = ["Taco", "Burger", "Fries", "Lemonade", "mathematician", "architect"]
 var castles = ["museums", "bridges", "cities"]
 var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
 var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
@@ -32,10 +32,10 @@ document.getElementById("person").innerHTML = programmer + "s";
 var q = document.getElementById("quote");
 
 q.innerHTML =
-    "\"The " + programmer +
-    ", like the poet, works only slightly removed from pure thought-stuff. He builds his " +
-    castles + " in the " + air + ", from " + air + ", creating by " + exertion + " of the imagination.\"" +
-    "\u2014" +  "Fred Brooks, " + programmer;
+    "\"Happiness " + programmer +
+    ",is not something you postpone " +
+    for + " the " + future + ", it " + is + ", something " + you + " design in the present.\"" +
+    "\u2014" +  "Jim Rohn, " + programmer;
 
 q.innerHTML += "<br><br><br>";
 
